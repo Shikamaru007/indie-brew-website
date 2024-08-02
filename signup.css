@@ -11,7 +11,7 @@ body {
     font-family: "DM Sans", sans-serif;    
     color:  rgb(40, 39, 41);
     width: 100%;   
-    letter-spacing: .02em;
+    letter-spacing: .01em;
     font-size: 1.2rem;
     min-height: 100vh;
     background-image: linear-gradient(rgb(251, 245, 249), rgb(246, 231, 249), rgb(252, 245, 249));
@@ -88,6 +88,9 @@ form label:not(:last-child) {
     margin-bottom: .5rem;
     font-weight: 600;
     font-size: 1rem;
+}
+.check label {
+    font-weight: 500;
 }
 form div {
     margin-bottom: 1.5rem;
