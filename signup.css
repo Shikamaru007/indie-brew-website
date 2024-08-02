@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+    line-height: 1.55;
+}
+body {
+    font-family: "DM Sans", sans-serif;    
+    color:  rgb(40, 39, 41);
+    width: 100%;   
+    letter-spacing: .02em;
+    font-size: 1.2rem;
+    min-height: 100vh;
+    background-image: linear-gradient(rgb(251, 245, 249), rgb(246, 231, 249), rgb(252, 245, 249));
+}
+h2 {
+    font-size: 2.5rem;
+    letter-spacing: .02em;
+    color: rgb(22, 22, 22); 
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+}
+h4 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+.container {
+    width: 75%;
+    margin: auto;
+    padding: 1.8rem 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+.back-btn {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+.back-btn p {
+    font-weight: 900;
+}
+.back-icon {
+    width: 1rem;
+    border: 1px solid rgb(173, 172, 172);
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .5em 1.1em;
+}
+.signup-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 2rem;
+    gap: 5rem;    
+    align-items: center;
+}
+.sign-icon {
+    width: 2.5em;
+}
+.sign-icon img {
+    width: 100%;
+}
+.left {
+    display: flex;
+    align-items: top;
+    gap: 1em;
+    margin-bottom: 1.5rem;
+}
+.left p span {
+    font-weight: 800;
+}
+.right-sign-up {
+    background-color: white;
+    padding: 3rem 4rem 4rem 4rem;
+    border-radius: 10px;
+}
+form label:not(:last-child) {
+    display: block;
+    line-height: 1;
+    margin-bottom: .5rem;
+    font-weight: 600;
+    font-size: 1rem;
+}
+form div {
+    margin-bottom: 1.5rem;
+} 
+form button {
+    width: 100%;
+    padding: 1em;
+    border: none;
+    background-color: rgb(102, 78, 252);
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+input[type=email],
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 1rem 1rem;
+    font-family: "DM Sans", sans-serif;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid grey;    
+}
+label a {
+    text-decoration: none;
+    color: rgb(102, 78, 252);
+    font-weight: 800;
+    border-bottom: 2.5px solid rgb(102, 78, 252);
+}

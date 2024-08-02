@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 html {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.55;
 }
 body {
     font-family: "DM Sans", sans-serif;    
-    color:  rgba(109, 106, 111, 0.8);
+    color:  rgba(76, 75, 78, 0.8);
     width: 100%;   
     letter-spacing: .02em;
     font-size: 1.2rem;  
