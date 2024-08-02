@@ -108,6 +108,7 @@ form button {
     font-size: 1rem;
     margin-top: 1rem;
     border-radius: 5px;
+    cursor: pointer;
 }
 input[type=email],
 input[type=text],
