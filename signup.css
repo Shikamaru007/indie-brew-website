@@ -77,7 +77,7 @@ header {
     margin-bottom: 1.5rem;
 }
 .left p span {
-    font-weight: 800;
+    font-weight: 600;
 }
 .right-sign-up {
     background-color: white;
@@ -118,11 +118,97 @@ input[type=password] {
     font-family: "DM Sans", sans-serif;
     font-size: 1rem;
     border-radius: 5px;
-    border: 1px solid grey;    
+    border: 1px solid rgba(163, 163, 163, 0.45);    
+}input[type=email]::placeholder,
+input[type=text]::placeholder,
+input[type=password]::placeholder {
+    color: rgba(128, 128, 128, 0.468);
 }
+
 label a {
     text-decoration: none;
     color: rgb(102, 78, 252);
     font-weight: 800;
     border-bottom: 2.5px solid rgb(102, 78, 252);
+}
+
+
+
+
+@media (max-width:922px) {
+    h2 {
+        font-size: 2.2rem;
+        margin: 1.5rem 0;
+       }
+    .back-btn p {
+        font-weight: 600;
+       }
+       .signup-content {
+        grid-template-columns: 1fr;    
+        gap: 2rem;
+       }
+       .left-con {
+        margin-top: 2.5rem;
+        margin-bottom: 0;
+       }
+       .right-sign-up {
+        padding: 4rem 5rem 5rem 5rem;
+       }  
+}
+
+
+
+
+@media (max-width:769px) {
+   .container {
+    width: 90%;
+   }
+   .back-btn p {
+    font-weight: 600;
+   }
+   .signup-content {
+    grid-template-columns: 1fr;    
+    gap: 2rem;
+   }
+   h2 {
+    font-size: 2.2rem;
+    margin: 1.5rem 0;
+   }
+   .left-con {
+    margin-top: 2.5rem;
+    margin-bottom: 0;
+   }
+   .right-sign-up {
+    padding: 4rem 5rem 5rem 5rem;
+   }  
+}
+
+
+
+
+@media (max-width:600px) {
+    .back-btn p {
+        display: none;
+    }
+    .sign-icon {
+        width: 5rem;
+    }
+    .left {
+        gap: .3rem;
+    }
+    .left-con {
+        margin-top: 2rem;
+    }
+    h2 {
+        margin: 0;
+    }
+    .signup-content {
+        gap: 1em;
+    }
+    .right-sign-up {
+        padding: 2rem 3rem 3rem 3rem;
+    }
+    form div {
+        margin-bottom: 2rem;
+    }
 }
